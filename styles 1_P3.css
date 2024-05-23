@@ -1,0 +1,50 @@
+/* Estilos CSS */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo para la página */
+}
+
+#principal {
+    text-align:left; /* Centra el contenido del div principal */
+    margin-top: 50px; /* Espacio superior para separar del borde superior */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: aqua; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: royalblue; /* Cambia el color de fondo al pasar el ratón sobre el botón */
+}
+
+#tabla {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%; /* Ancho de la tabla */
+    background-color: white; /* Color de fondo de la tabla */
+    border-radius: 8px; /* Bordes redondeados para la tabla */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+th, td {
+    border: 1px solid #dddddd; /* Color del borde de las celdas */
+    padding: 12px;
+    text-align: center; /* Centra el texto en las celdas */
+}
+
+th {
+    background-color: aquamarine; /* Color de fondo del encabezado de la tabla */
+    color: white; /* Color del texto del encabezado de la tabla */
+}
